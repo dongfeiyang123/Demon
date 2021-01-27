@@ -1,0 +1,11 @@
+prefix=/home/bobxie/code/cdk_srv/thirdlib/jsoncpp
+exec_prefix=${prefix}
+libdir=/home/bobxie/code/cdk_srv/thirdlib/jsoncpp/lib
+includedir=/home/bobxie/code/cdk_srv/thirdlib/jsoncpp/include
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 1.7.2
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
