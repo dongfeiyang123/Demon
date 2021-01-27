@@ -28,6 +28,6 @@ int main() {
 
   std::cout << name << std::endl;
   std::cout << age << std::endl;
-  std::cout << Frameuitl::square << std::endl;
+  std::cout << Frameuitl::square(age) << std::endl;
   return 0;
 }
